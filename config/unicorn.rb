@@ -9,7 +9,7 @@ timeout 30
 
 # Specify path to socket unicorn listens to, 
 # we will use this in our nginx.conf later
-listen "#{@shared/sockets/unicorn.sock", :backlog => 64
+listen "#{@shared_dir}tmp/sockets/unicorn.sock", :backlog => 64
 
 # Set process id path
 pid "#{@shared_dir}tmp/pids/unicorn.pid"
