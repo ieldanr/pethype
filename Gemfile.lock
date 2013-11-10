@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/capistrano/rbenv.git
+  revision: 362dbc02ef963c91425767e09b4848ff7be5132b
+  specs:
+    capistrano-rbenv (0.0.1)
+      capistrano
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -139,6 +146,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano (~> 3.0.0)
   capistrano-rails
+  capistrano-rbenv!
   coffee-rails (~> 4.0.0)
   debugger
   jbuilder (~> 1.2)
