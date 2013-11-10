@@ -1,7 +1,7 @@
 # set path to app that will be used to configure unicorn, 
 # note the trailing slash in this example
 @dir = "/home/rails/current/"
-@shared_dir = "/home/rails  /shared/"
+@shared_dir = "/home/rails/shared/"
 worker_processes 2
 working_directory @dir
 preload_app true
