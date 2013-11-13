@@ -16,7 +16,7 @@
   position: relative;
   overflow: hidden;
   text-align: center;
-  background: #292929 url(../images/pages/welcome/welcome.jpg) 50% 0 repeat fixed;
+  background: #292929 image-url('pages/welcome/welcome.jpg') 50% 0 repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,8 +110,12 @@
 #page-welcome .centralized {
   z-index: 2;
 }
-/**   PAGE | WORK*/.portfolio-items {
-  /*    * Filtering configuration    */
+/*
+*   PAGE | WORK
+*/.portfolio-items {
+  /*
+    * Filtering configuration
+    */
 }
 .portfolio-items a {
   position: relative;
@@ -127,7 +131,7 @@
   position: absolute;
   display: block;
   z-index: 4;
-  background: url(../images/css/thumb_over.png) no-repeat scroll center 42% #4e808e;
+  background: image-url('css/thumb_over.png') no-repeat scroll center 42% #4e808e;
   background-size: auto 20%;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -192,7 +196,7 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   text-indent: -99999px;
-  background: url("../images/css/cls.png") no-repeat center center;
+  background: image-url("css/cls.png") no-repeat center center;
 }
 .portfolio-item-details .close-portfolio span:hover {
   opacity: 0.5;
@@ -235,9 +239,11 @@
 .portfolio-item-details .submenu span:hover {
   text-decoration: none;
 }
-/**   PAGE | FEATURES*/#page-features {
+/*
+*   PAGE | FEATURES
+*/#page-features {
   position: relative;
-  background: url(../images/pages/features/q_bck.jpg) 50% 0 no-repeat fixed;
+  background: image-url('pages/features/q_bck.jpg') 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -269,7 +275,7 @@
   display: inline-block;
 }
 #page-features .quote {
-  background: url(../images/css/divider_q.png) no-repeat 50% 0;
+  background: image-url('css/divider_q.png') no-repeat 50% 0;
   margin-top: 100px;
   padding-top: 50px;
 }
@@ -329,7 +335,7 @@
 */
 #page-twitter {
   position: relative;
-  background: url(../images/pages/twitter/tw_bck.jpg) 50% 0 no-repeat fixed;
+  background: image-url('pages/twitter/tw_bck.jpg') 50% 0 no-repeat fixed;
   padding-top: 90px;
   padding-bottom: 130px;
 }
@@ -338,7 +344,7 @@
   position: relative;
 }
 #page-twitter .twitter-devider {
-  background: url(../images/css/divider_tw.png) no-repeat center bottom;
+  background: image-url('css/divider_tw.png') no-repeat center bottom;
   padding-bottom: 60px;
 }
 #page-twitter .twitterfeed {
@@ -614,7 +620,9 @@
 #page-contact form .media {
   padding-top: 24px;
 }
-/**   PAGE | CLIENTS*/#page-clients .row-fluid {
+/*
+*   PAGE | CLIENTS
+*/#page-clients .row-fluid {
   padding-bottom: 40px;
   padding-top: 15px;
 }
@@ -718,7 +726,9 @@
 #navigation .mobile-menu:hover .icon-bar {
   background-color: #4e808e;
 }
-/**   FOOTER*/.pages footer {
+/*
+*   FOOTER
+*/.pages footer {
   padding-top: 30px;
   padding-bottom: 60px;
   text-align: center;
@@ -770,7 +780,7 @@ footer {
 }
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(../images/css/plugins/bxslider/bx_loader.gif) center center no-repeat #ffffff;
+  background: image-url('css/plugins/bxslider/bx_loader.gif') center center no-repeat #ffffff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -810,11 +820,11 @@ footer {
 }
 .bx-wrapper .bx-prev {
   left: 10px;
-  background: url(../images/css/plugins/bxslider/controls.png) no-repeat 0 -32px;
+  background: image-url('css/plugins/bxslider/controls.png') no-repeat 0 -32px;
 }
 .bx-wrapper .bx-next {
   right: 10px;
-  background: url(../images/css/plugins/bxslider/controls.png) no-repeat -43px -32px;
+  background: image-url('css/plugins/bxslider/controls.png') no-repeat -43px -32px;
 }
 .bx-wrapper .bx-prev:hover {
   background-position: 0 0;
@@ -844,7 +854,7 @@ footer {
   width: 10px;
   height: 11px;
   outline: 0;
-  background: url(images/controls.png) -86px -11px no-repeat;
+  background: image-url('controls.png') -86px -11px no-repeat;
   margin: 0 3px;
 }
 .bx-wrapper .bx-controls-auto .bx-start:hover,
@@ -857,7 +867,7 @@ footer {
   width: 9px;
   height: 11px;
   outline: 0;
-  background: url(images/controls.png) -86px -44px no-repeat;
+  background: image-url('controls.png') -86px -44px no-repeat;
   margin: 0 3px;
 }
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
@@ -904,15 +914,15 @@ footer {
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../images/css/sicon-set.png");
+  background-image: image-url("css/sicon-set.png");
   background-repeat: no-repeat;
   text-indent: -99999px;
 }
 .sicon-white i {
-  background-image: url("../images/css/sicon-set-white.png");
+  background-image: image-url("css/sicon-set-white.png");
 }
 .sicon-black i {
-  background-image: url("../images/css/sicon-set.png");
+  background-image: image-url("css/sicon-set.png");
 }
 /*
 *   Social icons configuration
@@ -962,12 +972,22 @@ footer {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.social-icons.bordered a:hover {
-  background-color: #ffffff;
+.social-icons.bordered{
+  a.sicon-facebook:hover{
+    background-color: rgba(62,97,206,1);
+  }
+
+  a.sicon-twitter:hover{
+    background-color: rgba(47,176,227,1);
+  }
+
+  a.sicon-pinterest:hover{
+    background-color: rgba(204,27,30,1);
+  }
 }
-.social-icons.bordered a:hover i {
-  background-image: url("../images/css/sicon-set.png");
-}
+// .social-icons.bordered a:hover i {
+//   background-image: image-url("css/sicon-set.png");
+// }
 .social-icons.bordered-black {
   border-right: 2px solid #292929;
 }
@@ -979,7 +999,7 @@ footer {
   background-color: #292929;
 }
 .social-icons.bordered-black a:hover i {
-  background-image: url("../images/css/sicon-set-white.png");
+  background-image: image-url("css/sicon-set-white.png");
 }
 /*
 *   Big social icons with hover background
@@ -1000,7 +1020,7 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 .social-icons.hover-big a:hover i {
-  background-image: url("../images/css/sicon-set-white.png");
+  background-image: image-url("css/sicon-set-white.png");
 }
 .social-icons.hover-big .sicon-facebook:hover {
   background-color: #3b5998;
@@ -1091,7 +1111,7 @@ footer {
 *   Show more cube
 */
 .show-more-cube {
-  background: url("../images/css/divider_more.png") no-repeat center center;
+  background: image-url("css/divider_more.png") no-repeat center center;
   display: block;
   width: 630px;
   text-align: center;
@@ -1134,7 +1154,7 @@ footer {
 *   Divider for Heading lines
 */
 .line-divider:after {
-  background: url("../images/css/divider.png") no-repeat bottom center;
+  background: image-url("css/divider.png") no-repeat bottom center;
   padding-bottom: 12px;
   display: block;
   height: 10px;
@@ -1145,7 +1165,7 @@ footer {
   margin: auto auto 24px;
 }
 .line-divider-inline:after {
-  background: url("../images/css/divider_more_text.png") no-repeat bottom center;
+  background: image-url("css/divider_more_text.png") no-repeat bottom center;
   padding-bottom: 0px;
   display: block;
   height: 10px;
@@ -1740,8 +1760,8 @@ a:hover {
 }
 @font-face {
   font-family: 'ChunkFiveRegular';
-  src: url('../fonts/Chunkfive-webfont.eot');
-  src: url('../fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Chunkfive-webfont.woff') format('woff'), url('../fonts/Chunkfive-webfont.ttf') format('truetype'), url('../fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+  src: font-url('Chunkfive-webfont.eot');
+  src: font-url('Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), font-url('Chunkfive-webfont.woff') format('woff'), font-url('Chunkfive-webfont.ttf') format('truetype'), font-url('Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
   font-weight: normal;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -1749,7 +1769,7 @@ a:hover {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'ChunkFiveRegular';
-    src: url('../fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    src: font-url('Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
   }
 }
 p {
@@ -3190,7 +3210,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../images/css/glyphicons-halflings.png");
+  background-image: image-url("css/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 6px;
@@ -3213,7 +3233,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("../images/css/glyphicons-halflings-white.png");
+  background-image: image-url("css/glyphicons-halflings-white.png");
 }
 .icon-glass {
   background-position: 0      0;
